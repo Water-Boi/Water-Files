@@ -15,7 +15,7 @@
 
 
 
-              if ($extension == "mp4" || "mov" || "mkv" || "avi") {
+              if ($extension == "mp4" || $extension == "mov" || $extension == "mkv" || $extension == "avi") {
                 $type = "video";
               }
               else {
@@ -24,7 +24,8 @@
 
                 }
 
-
+                echo $extension . "<br>" . $type;
+                
 
               // use this for when the upload code wont work
                //die();
