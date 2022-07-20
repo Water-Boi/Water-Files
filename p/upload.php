@@ -19,18 +19,15 @@
                 $type = "video";
               }
               else {
+
                 $type = "image";
-              }
 
+                }
 
-
-              echo $extension;
-
-            echo $type;
 
 
               // use this for when the upload code wont work
-              // die();
+               //die();
             $title = str_replace('.png', '', $title);
             $title = str_replace('.jpg', '', $title);
             $title = str_replace('.jpeg', '', $title);
