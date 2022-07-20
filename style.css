@@ -1,0 +1,46 @@
+html {
+background-color: #002a36;
+font-family: sans-serif;
+text-align: center;
+color: white;
+}
+
+#public-files:hover  {
+    background-color: #045970;
+}
+
+#public-files{
+    margin-left: 37%;
+    padding: 15px;
+    background-color: #024253;
+    width: 25%;
+    border-radius: 1em;
+}
+
+a {
+    color: white;
+}
+
+button {
+    background-color: #024253;
+    border-radius: 1em;
+    color: white;
+    padding: 15px;
+    border: none;
+}
+
+button:hover {
+    background-color: #045970;
+    }
+
+    input {
+        background-color: #024253;
+        border-radius: 1em;
+        color: white;
+        padding: 15px;
+        border: none;
+    }
+    
+    input:hover {
+        background-color: #045970;
+        }
