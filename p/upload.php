@@ -15,23 +15,29 @@
 
 
 
-              if ($extension == "mp4") {
+              if ($extension == "mp4" || "mov" || "mkv" || "avi") {
                 $type = "video";
               }
               else {
                 $type = "image";
               }
 
+
+
               echo $extension;
 
             echo $type;
 
 
-              
+              // use this for when the upload code wont work
+              // die();
             $title = str_replace('.png', '', $title);
             $title = str_replace('.jpg', '', $title);
             $title = str_replace('.jpeg', '', $title);
             $title = str_replace('.mp4', '', $title);
+            $title = str_replace('.avi', '', $title);
+            $title = str_replace('.mov', '', $title);
+            $title = str_replace('.mkv', '', $title);
             
 
               $query = "INSERT INTO files (id, title, filename, author, date_created, public, file_type) VALUES ('', ?, ?, 'waterboi', '', 'public', ?)";
