@@ -1,4 +1,4 @@
-# Water-Files
+# Water Files
 A nice little file hosting site made in php.
 
 # Hosting Your own
