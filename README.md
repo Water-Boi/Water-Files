@@ -9,6 +9,8 @@ Now, go to config.php and change the sql credentials to your own. If yours needs
 
 **NOTE:** This project is still in development
 
+**NOTE:** Login and Register is still in the works
+
 # Take a look
 This is how the site looks
 
