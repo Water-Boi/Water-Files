@@ -11,7 +11,21 @@
     <h1>Welcome to Water Files</h1>
     <h2>Open community for image and videos files</h2>
     <br><br>
-    <button onClick="location.assign('/upload')">Upload a File</button>
+    <?php 
+
+session_start();
+
+
+
+if (isset($_SESSION['username'])) {
+    echo "<button onClick=location.assign('/upload')>Upload a File</button>";
+}
+else {
+    echo "<button onClick=location.assign('/register')>Register</button>  or  <button onClick=location.assign('/login')>Login</button>";
+}
+
+?>
+
     <br><br>
     <p>Public stuff</p>
     <?php

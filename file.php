@@ -13,7 +13,7 @@ $name = $_GET['name'];
 <body>
     <br>
     <?php
-    $stmt = $pdo->prepare('SELECT * FROM files WHERE title = :name');
+    $stmt = $pdo->prepare('SELECT * FROM files WHERE title = :name LIMIT 1');
     $stmt->execute([ 'name' => $name ]);
 
 $controls = '';

@@ -1,4 +1,3 @@
-<?php include_once("config.php") ?>
 
 <!DOCTYPE HTML>
 <html>
@@ -12,9 +11,9 @@
     <h2>To get access to you account</h2>
 <form action="/p/login.php" method="POST">
     <br>
-<input type="username" name="username" placeholder="CoolUsername123">
+<input type="email" name="email" placeholder="Email">
 <br><br>
-<input type="password" name="password" placeholder="EpicPass123!"> 
+<input type="password" name="password" placeholder="Password"> 
 <br><br>
 <input type="submit" value="submit" name="submit">
 </form>

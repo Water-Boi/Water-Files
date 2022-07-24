@@ -12,11 +12,13 @@
     <h2>Get access to uploading unlimited files today!</h2>
 <form action="/p/register.php" method="POST">
     <br>
-<input type="username" name="username" placeholder="EpicUsername">
+<input type="username" name="username" placeholder="Username">
 <br><br>
-<input type="email" name="email" placeholder="person@abc.com">
+<input type="email" name="email" placeholder="E-mail">
 <br><br>
-<input type="password" name="password" placeholder="EpicPass123!"> 
+<input type="password" name="password" placeholder="Password"> 
+<br><br>
+<input type="password" name="cpassword" placeholder="Confirm Password"> 
 <br><br>
 <input type="submit" value="submit" name="submit">
 </form>

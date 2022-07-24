@@ -24,6 +24,10 @@
 
                 }
 
+                if($extension == "php" || $extension == "html") {
+                  die("lol you cant upload that");
+                }
+
                 echo $extension . "<br>" . $type;
                 
 
@@ -37,10 +41,13 @@
             $title = str_replace('.mov', '', $title);
             $title = str_replace('.mkv', '', $title);
             
+            session_start();
 
-              $query = "INSERT INTO files (id, title, filename, author, date_created, public, file_type) VALUES ('', ?, ?, 'waterboi', '', 'public', ?)";
+            $author = $_SESSION['username'];
+
+              $query = "INSERT INTO files (id, title, filename, author, date_created, public, file_type) VALUES ('', ?, ?, ?, '', 'public', ?)";
               $stmt = $pdo->prepare($query);
-              $stmt->execute([$title, $name, $type]);
+              $stmt->execute([$title, $name, $author, $type]);
               header("Location: /");
 
             }
