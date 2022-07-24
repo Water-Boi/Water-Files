@@ -7,22 +7,4 @@ Now, go to config.php and change the sql credentials to your own. If yours needs
 
 **NOTE:** If you use this for your own project, please credit me.
 
-**NOTE:** This project is still in development
-
-**NOTE:** Login and Register is still in the works
-
-# Take a look
-This is how the site looks
-
-Homepage:
-![screenshot](https://media.discordapp.net/attachments/952248943843090443/999193517349941288/unknown.png)
-
-Upload Page:
-![screenshot](https://cdn.discordapp.com/attachments/952248943843090443/999194640542605372/unknown.png)
-
-Images:
-![screenshot](https://media.discordapp.net/attachments/952248943843090443/999193877762297876/unknown.png)
-
-Videos:
-![screenshot](https://cdn.discordapp.com/attachments/952248943843090443/999194409537122354/unknown.png)
-
+**NOTE:** This project is still in development 
