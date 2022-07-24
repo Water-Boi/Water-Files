@@ -1,4 +1,4 @@
-# Water-Files
+# Water Files
 A nice little file hosting site made in php.
 
 # Hosting Your own
@@ -8,6 +8,8 @@ Now, go to config.php and change the sql credentials to your own. If yours needs
 **NOTE:** If you use this for your own project, please credit me.
 
 **NOTE:** This project is still in development
+
+**NOTE:** Login and Register is still in the works
 
 # Take a look
 This is how the site looks
